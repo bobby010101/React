@@ -36,7 +36,7 @@ const SecondPageComponent1: React.FC = () => {
   return (
     <div style={{ height: 400, width: '100%',}}>
       <DataGrid rows={data}  columns={columns} checkboxSelection />
-      
+      <h1 style={{color:'black'}}>Scroll down for Department Component</h1>
       <Tree/>
     </div>
 
